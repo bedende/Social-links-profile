@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(21, 19, 19);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:not(:has(> a)) {
+    width: 50vh;
+    height: 70vh;
+    background-color: rgb(36, 33, 33);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div:has(> a) {
+    width: 80%;
+    height: 8%;
+    background-color: rgb(52, 48, 48);
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p, a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.location {
+    color: rgb(193, 235, 77);
+    font-size: 0.8em;
+}
+
+.biography {
+    color: rgb(177, 169, 169);
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
